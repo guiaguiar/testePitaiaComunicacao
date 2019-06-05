@@ -1,0 +1,277 @@
+/* LOGIN PAGE */
+
+.backgroundImg {
+    align-items: center;
+    background-image: url("assets/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+;
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto !important;
+}
+
+img#loginCardImg {
+    height: 100%;
+    width: 100%;
+}
+
+.imgContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 85%;
+}
+
+div#loginCard {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 520px;
+    justify-content: center;
+    margin: -2px 0px 0px 10px;
+    position: absolute;
+    width: 835px;
+}
+
+.inputsCard {
+    height: 440px;
+    margin: 0px 0px 0px 335px;
+    width: 410px;
+}
+
+div.inputsCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.defText {
+    color: #605d5e;
+}
+
+.defInput {
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img.userThumb {
+    height: 100%;
+    width: 100%;
+}
+
+.userThumbWrp {
+    align-self: flex-start;
+    height: 80%;
+    width: 7%;
+}
+
+.inputLine {
+    background-color: #605d5e;
+    width: 100%;
+    height: 2px;
+}
+
+.inputsWrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+}
+
+input#username {
+    align-self: flex-start;
+    background-color: #ffffff00;
+    border: none;
+    margin: 8px 0px 0px 32px;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+input#password {
+    align-self: flex-start;
+    background-color: #ffffff00;
+    border: none;
+    margin: 8px 0px 0px 32px;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.btn {
+    position: relative;
+}
+
+a#loginAnc {
+    position: absolute;
+}
+
+.loginAnc {
+    border-radius: 30px;
+    height: 50px;
+    position: absolute;
+    width: 191px;
+}
+
+.loginAnc:hover {
+    background: #ffffff4a;
+}
+
+input:focus {
+    outline: none;
+}
+
+.show {
+    display: none;
+}
+
+.alert.alert-danger {
+    background-color: #ff2db5dc;
+    color: white;
+    right: 0;
+    margin: 1%;
+    position: fixed;
+    top: 0;
+    width: 20%;
+    z-index: 1;
+}
+
+
+/* PAGE HOME */
+
+.header {
+    flex-direction: row;
+    display: flex;
+    height: 14%;
+    width: 100%;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    height: 72%;
+    width: 100%;
+}
+
+.footer {
+    height: 14%;
+    width: 100%;
+}
+
+.nameTitle {
+    align-items: center;
+    right: 0;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 0% 29% 0% 0%;
+    width: 50%;
+}
+
+.navigationBar {
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.itensNavBar {
+    color: white;
+}
+
+.signUp {
+    align-items: center;
+    background-color: #ff2db5;
+    border-radius: 30px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 120px;
+}
+
+.signUpText {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1.companyName {
+    color: white;
+    font-size: 20px;
+}
+
+.homeText {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    padding: 7%;
+    width: 50%;
+}
+
+.homeImg {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.homeTextTitle {
+    color: white;
+}
+
+.homeTextSubTitle {
+    color: #ff2db5;
+    font-size: 30px;
+}
+
+.homeTextText {
+    color: white;
+    font-size: 13px;
+}
+
+.shopNow {
+    align-items: center;
+    background-color: #ff2db5;
+    border-radius: 10px;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    width: 120px;
+}
+
+.shopNowText {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

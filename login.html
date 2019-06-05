@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="login.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <div class="backgroundImg">
+
+        <!-- Mensagem de erro -->
+        <div class="show" role="alert">
+            <h4 class="alert-heading">Tente novamente!</h4>
+            <hr>
+            <p class="mb-0">Login ou senha incorretos.</p>
+        </div>
+
+        <div class="imgContainer">
+
+            <div id="loginCard">
+
+                <div class="inputsCard">
+
+                    <div class="loginH">
+                        <h1 id="loginH" class="defText">Login Interno</h1>
+                        <text id="loginHsub" class="defText">Experiemente nosso jeito de comunicar</text>
+                    </div>
+
+
+                    <div class="inputsWrap">
+
+                        <div id="userInput" class="defInput">
+                            <!-- Icone Usuário -->
+                            <div class="userThumbWrp">
+                                <img class="userThumb" src="assets/pessoa.png" alt="">
+                            </div>
+                            <!-- Input Username -->
+                            <input id="username" class="myUsrIn defText" placeholder="Usuário">
+                            <!-- Linha -->
+                            <div class="inputLine"></div>
+
+                        </div>
+
+                        <div id="passInput" class="defInput">
+                            <!-- Icone Cadeado -->
+                            <div class="userThumbWrp">
+                                <img class="userThumb" src="assets/cadeado.png" alt="">
+                            </div>
+                            <!-- Input Password -->
+                            <input id="password" type="password" class="myUsrIn defText" placeholder="Senha">
+                            <!-- Linha -->
+                            <div class="inputLine"></div>
+                        </div>
+
+                        <a id="keepConn" class="defText" href="#">Continuar conectado?</a>
+
+                        <!-- Botão -->
+                        <div class="btn">
+                            <a href="javascript:validate()" class="loginAnc"></a>
+                            <img class="loginImg" src="assets/loginButon.png" alt="">
+                        </div>
+
+                        <a href="# " id="forgotPass" class="defText">Esqueceu sua senha?</a>
+
+                        <!-- Linha -->
+                        <div class="inputLine"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Imagem Form -->
+            <img id="loginCardImg" src="assets/formLogin.png" class="rounded mx-auto d-block">
+
+        </div>
+</body>
+
+</html>
